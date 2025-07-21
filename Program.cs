@@ -14,7 +14,7 @@ var options = new JsonSerializerOptions
 var customer = new Customer
 {
     Name = "Test",
-    Description = "Test"
+    Description = "This is a longer, more complex string"
 };
 
 // Step 3: Use the context for serialization
